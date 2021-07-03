@@ -21,6 +21,6 @@ while '_' in display:
     if guess not in chosen_word:
         lives -= 1
         print(arts.stages[lives])
-    print(display)
+    print(*display)
 if '_' not in display:
     print("You won!")
